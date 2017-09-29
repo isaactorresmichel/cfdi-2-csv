@@ -1,0 +1,23 @@
+{
+    "name": "isaactorresmichel/cfdi2csv",
+    "description": "Procesador de XML CFDI que genera un archivo CSV para ser importado en un procesador de hojas de calculo.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Isaac Torres",
+        "email": "isaac@crayon.com.mx"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "^4.0@dev",
+        "symfony/filesystem": "^4.0@dev",
+        "webmozart/path-util": "^2.3@dev",
+        "eclipxe/buzoncfdi-cfdireader": "dev-master",
+        "league/csv": "9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "isaactorresmichel\\cfdi2csv\\": "src/"
+        }
+    }
+}

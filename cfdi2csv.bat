@@ -1,0 +1,1 @@
+@php cfdi2csv %*
